@@ -10,11 +10,11 @@ IT 잡다한 지식
 
 - Projects
   - geasenak-web
-  - Default Web Design
-  - tooget
+  - Default Web Design (생성 예정)
+  - tooget (생성 예정)
 - Program Language
-  - Java
-  - Python
+  - Java (생성 예정)
+  - Python (생성 예정)
 - Scripts
-  - Node.js
-  - Javascript
+  - Node.js (생성 예정)
+  - Javascript (생성 예정)
