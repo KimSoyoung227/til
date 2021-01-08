@@ -10,23 +10,31 @@ My sundry IT knowledge
 ---
 <details markdown="1">
 <summary> BJO </summary>
+
 - [10809번 문제](https://github.com/KimSoyoung227/til/blob/master/BJO/%5B20210107%5D%2010809%EB%AC%B8%EC%A0%9C.md)
+
 </details>
+
 <details markdown="1">
 <summary> javascript </summary>
-  - [javascript란](https://github.com/KimSoyoung227/til/blob/master/javascript/%5B20191112%5D%20javascript%EB%9E%80.md)
+
+- [javascript란](https://github.com/KimSoyoung227/til/blob/master/javascript/%5B20191112%5D%20javascript%EB%9E%80.md)
+
 </details>
 <details markdown="1">
 <summary> node </summary>
-    - [express란](https://github.com/KimSoyoung227/til/blob/master/node/%5B20191112%5D%20express%EB%9E%80.md)
-    - [nodejs란](https://github.com/KimSoyoung227/til/blob/master/node/%5B20191112%5D%20nodejs%EB%9E%80.md)
+
+- [express란](https://github.com/KimSoyoung227/til/blob/master/node/%5B20191112%5D%20express%EB%9E%80.md)
+- [nodejs란](https://github.com/KimSoyoung227/til/blob/master/node/%5B20191112%5D%20nodejs%EB%9E%80.md)
+    
 </details>
 <details markdown="1">
 <summary> spring </summary>
-      - [Address already in use 에러](https://github.com/KimSoyoung227/til/blob/master/spring/%5B20191030%5D%20Address%20already%20in%20use%20%EC%97%90%EB%9F%AC.md)
-      - [tiles 적용 중 Attribute 'body' not found 에러](https://github.com/KimSoyoung227/til/blob/master/spring/%5B20191031%5D%20tiles%20%EC%A0%81%EC%9A%A9%20%EC%A4%91%20Attribute%20'body'%20not%20found%20%EC%97%90%EB%9F%AC.md)
-</details>
 
+- [Address already in use 에러](https://github.com/KimSoyoung227/til/blob/master/spring/%5B20191030%5D%20Address%20already%20in%20use%20%EC%97%90%EB%9F%AC.md)
+- [tiles 적용 중 Attribute 'body' not found 에러](https://github.com/KimSoyoung227/til/blob/master/spring/%5B20191031%5D%20tiles%20%EC%A0%81%EC%9A%A9%20%EC%A4%91%20Attribute%20'body'%20not%20found%20%EC%97%90%EB%9F%AC.md)
+      
+</details>
 
 
 ---
