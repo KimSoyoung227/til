@@ -35,7 +35,12 @@ My sundry IT knowledge
 - [tiles 적용 중 Attribute 'body' not found 에러](https://github.com/KimSoyoung227/til/blob/master/spring/%5B20191031%5D%20tiles%20%EC%A0%81%EC%9A%A9%20%EC%A4%91%20Attribute%20'body'%20not%20found%20%EC%97%90%EB%9F%AC.md)
       
 </details>
+<details markdown="1">
+<summary> Search Engine </summary>
 
+- [검색엔진 솔루션,라이브러리,오픈소스 종류](https://github.com/KimSoyoung227/til/blob/master/Search%20Engine/%5B20210112%5D%20%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84%20%EC%86%94%EB%A3%A8%EC%85%98%2C%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC%2C%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%20%EC%A2%85%EB%A5%98.md)
+      
+</details>
 
 ---
 \* _레파지토리 구성도 참고 출처_ : [개새낙CEO님의 TIL](https://github.com/yj-oh/til#-database)
