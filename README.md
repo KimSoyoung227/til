@@ -12,6 +12,7 @@ My sundry IT knowledge
 <summary> BJO </summary>
 
 - [10809번 문제](https://github.com/KimSoyoung227/til/blob/master/BJO/%5B20210107%5D%2010809%EB%AC%B8%EC%A0%9C.md)
+- [10950번 문제 에러 원인 분석](https://github.com/KimSoyoung227/til/blob/master/BJO/%5B20210113%5D%2010950%EB%AC%B8%EC%A0%9C.md)
 
 </details>
 
