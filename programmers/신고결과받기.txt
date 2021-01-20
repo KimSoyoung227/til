@@ -1,0 +1,51 @@
+import java.util.HashSet;
+import java.util.HashMap;
+import java.util.ArrayList;
+import java.util.Arrays;
+
+class Solution {
+    public int[] solution(String[] id_list, String[] report, int k) {
+        int[] answer = new int[id_list.length]; //처리메일 받은 건수를 저장
+        HashSet<String> reportS = new HashSet<String>(Arrays.asList(report));//신고받은 리스트 중복 제거
+        HashMap<String, Integer> sUserM = new HashMap<String, Integer>();//신고받은 id map
+        ArrayList<String> repS = new ArrayList<String>();//신고받은 id set
+        ArrayList<String> idList = new ArrayList<String>(Arrays.asList(id_list)); //id_list arrayList
+
+        for(int j = 0; j < reportS.size(); j++) {
+            String fUser = report[j].split(" ")[0];//신고한 id
+            String sUser = report[j].split(" ")[1];//신고받은 id
+            int n = 0;
+
+            //신고받은 id와 건수 저장
+            if(sUserM.get(sUser) == null) {
+                sUserM.put(sUser, ++n);
+            } else {
+                n = sUserM.get(sUser);
+                sUserM.put(sUser, ++n);
+
+                if(n == k){
+                    repS.add(sUser);
+                }
+            }
+        }
+
+        for(int i = 0; i < reportS.size(); i++) {
+
+            String fUser = report[i].split(" ")[0];//신고한 id
+            String sUser = report[i].split(" ")[1];//신고받은 id
+
+            if(repS.contains(sUser)) {
+                int idx = idList.indexOf(fUser);
+                answer[idx] += 1;
+            }
+        }
+        
+    
+        //System.out.print("report 중복 제거 : " + reportS+"\n"); 
+        //System.out.print("신고받은 id와 신고건수 : " + sUserM+"\n");
+        //System.out.print("신고받은 id 리스트 : " + repS+"\n"); 
+        //System.out.print("id_list의 각 처리결과 메일 수신건수 : " + Arrays.toString(answer) +"\n"); 
+        
+        return answer;
+    }
+}
